@@ -22,3 +22,6 @@ hack-android
 - jbe 类似JD-GUI的反编译工具，java class文件的字节码编辑工具，可以查看和修改class文件。
 
 - arm-bin arm CPU编译好的小工具集，比如busybox，tcpdump等，可直接adb push到android手机中，用于调试。
+
+- romtools boot.img等格式 拆包，打包工具
+  记住命令：gunzip -c ../boot.img-ramdisk.gz | cpio -i
